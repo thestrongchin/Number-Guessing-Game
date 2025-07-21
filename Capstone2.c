@@ -7,13 +7,17 @@
 
 int num = 0;
 
-int generate_random_number(){
+int main(){
+    int generateNum;
+    int guesses;
 
+    srand(time(0));
+    generateNum = rand() % 100 + 1;
 }
 
 int get_user_guess(int guess){
     while(1){
-    int attempts = MAX_ATTEMPTS;
+    int attempts == MAX_ATTEMPTS;
 
     if(guess >= 1){
 
