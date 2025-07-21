@@ -10,6 +10,9 @@ int guess;
 int attempts;
 
 int main(){
+
+    char selection;
+
     srand(time(0));
     num = rand() % 100 + 1;
 
@@ -48,6 +51,8 @@ int main(){
             printf("Congratulations! You have guessed the correct number! \n");
             printf("Do you want to play again? \n");
             printf("Yes = 'y' or 'Y', No = 'n' or 'N' \n ");
+
+            scanf("%c", selection);
         }
     }
 }
