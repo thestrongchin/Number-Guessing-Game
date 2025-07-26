@@ -13,14 +13,14 @@ int main(){
 
     char selection;
 
-    srand(time(0));
-    num = rand() % 100 + 1;
+    srand(time(0)); // This creates a seed for the number generator
+    num = rand() % 100 + 1; // This generates a random number between 1 and 100 and assigns it to variable "num"
 
-    printf("      =============================================== \n");
-    printf("            Welcome to the number guessing game! \n");
-    printf("      ===============================================\n");
+    printf("=============================================== \n");
+    printf("      Welcome to the number guessing game! \n");
+    printf("===============================================\n");
 
-    while(0){
+    while(attempts > 0){
 
     printf("Please guess a number");
     scanf("%d", &guess);
@@ -47,12 +47,22 @@ int main(){
             printf("Guesses remaining: %d \n", MAX_ATTEMPTS);
         }
 
+        if(attempts == 0){
+            printf("Sorry, you have run out of attempts \n");
+            printf("The correct number was: %d \n", num);
+            printf("Would you like to play again? \n");
+            printf("Yes = 'y' or 'Y', No = 'n' or 'N' \n");
+
+            selection = getchar();
+        }
+
         if(guess == num){
             printf("Congratulations! You have guessed the correct number! \n");
             printf("Do you want to play again? \n");
             printf("Yes = 'y' or 'Y', No = 'n' or 'N' \n ");
 
-            scanf("%c", selection);
+            selection = getchar();
+
         }
     }
 }
