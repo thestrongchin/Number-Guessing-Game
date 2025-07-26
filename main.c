@@ -20,12 +20,12 @@ int main(){
     printf("      Welcome to the number guessing game! \n");
     printf("===============================================\n");
 
+     int attempts = MAX_ATTEMPTS;
+
     while(attempts > 0){
 
-    printf("Please guess a number");
+    printf("Please guess a number: ");
     scanf("%d", &guess);
-
-    int attempts = MAX_ATTEMPTS;
 
     if(guess >= num){
 
