@@ -22,36 +22,36 @@ int main(){
 
     int attempts = MAX_ATTEMPTS;
 
-    while(attempts > 0){
+    for(attempts = 10; attempts > 0; attempts--){ // Assigns 10 value to attempts, attempts must be over 0, and attempts's value will decrease by 1 each time.
 
     printf("Please guess a number: ");
     scanf("%d", &guess);
 
-    if(guess < num){
-        printf("Guess too low! \n");
-        printf("You have %d attempts left: \n \n", attempts);
+        if(guess < num){
+            printf("Guess too low! \n");
+            printf("You have %d attempts left: \n \n", attempts);
 
-        TotalAttempts++;
-        attempts--;
-    }
+            TotalAttempts++; // Adds 1 to 'TotalAttempts' each time user guesses
+        }
 
-    if(guess > num){
-        printf("Guess too high! \n");
-        printf("You have %d attempts left: \n \n", attempts);
+        if(guess > num){
+            printf("Guess too high! \n");
+            printf("You have %d attempts left: \n \n", attempts);
 
-        TotalAttempts++;
-        attempts--;
+            TotalAttempts++;
+        }
     }
 
     if(guess == num){
         printf("Congratulations! you have guessed the correct number! \n");
         printf("You have guessed the number in %d attempts \n \n", TotalAttempts);
-        
+            
         printf("Would you like to play again? \n");
         printf("Yes = 'Y' / 'y' No = 'N' or 'n' \n");
+
         selection = getchar();
 
-    }
+        }
 
     if(attempts == 0){
         printf("You have run out of attempts! \n");
@@ -59,6 +59,7 @@ int main(){
 
         printf("Would you like to play again? \n");
         printf("Yes = 'Y' / 'y' No = 'N' or 'n' ");
+
         selection = getchar();
     }
 
@@ -66,5 +67,5 @@ int main(){
         return 1;
     }
 
-    }
+    
 }
