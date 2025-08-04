@@ -13,8 +13,7 @@ int TotalAttempts = 0;
 int main(){
 
     start:
-
-    int jump;
+    
     char selection;
 
     srand(time(0)); // This creates a seed for the number generator
@@ -45,48 +44,48 @@ int main(){
             TotalAttempts++;
         } 
 
-        if(guess == num){
 
-            printf("Congratulations! you have guessed the correct number! \n");
-            printf("You have guessed the number in %d attempts \n \n", TotalAttempts);
-            
-            goto jump;
-        }
 
-        if(attempts == 0){
-            printf("You have run out of attempts! \n");
-            printf("The correct number was: %d \n \n", num);
-
-            goto jump;
-        }
         
         if(guess <= 0 || guess > 100){
 
-            printf("Invalid input, please try again"); 
+            printf("Invalid input, please try again \n"); 
             attempts++; // Adds 1 to attempts becuase user put in an invalid input
 
         }
     }
 
-    jump:
+    while(0){
 
-    printf("Would you like to play again? \n");
-    printf("Yes = 'Y' or 'y' ");
-    printf("No = 'N' or 'n' ");
-    printf("Please make your selection: ");
+        if(guess == num){
 
-    selection = getchar();
+            printf("Congratulations! you have guessed the correct number! \n");
+            printf("You have guessed the number in %d attempts \n \n", TotalAttempts);
+        }
 
-    if(selection == 'Y' || 'y'){
-        goto start;
-    }
+        if(attempts == 0){
+            printf("You have run out of attempts! \n");
+            printf("The correct number was: %d \n \n", num);
+        }
 
-    if(selection == 'N' || 'n'){
-        printf("Thanks for playing the Number Guessing Game! Come again soon!");
-        return 0;
+        printf("Would you like to play again? \n");
+        printf("Yes = 'Y' or 'y' \n");
+        printf("No = 'N' or 'n' \n");
+        printf("Please make your selection: ");
 
-    } else {
-        printf("invalid input, game terminating");
-        return 0;
+        scanf(" %c", &selection);
+
+        if(selection == 'Y' || selection == 'y'){
+            goto start;
+        }
+
+        if(selection == 'N' || selection == 'n'){
+            printf("Thanks for playing the Number Guessing Game! Come again soon! \n");
+            return 0;
+
+        } else {
+            printf("invalid input, game terminating... \n");
+            return 0;
+        }
     }
 }
