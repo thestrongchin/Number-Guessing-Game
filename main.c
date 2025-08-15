@@ -32,7 +32,7 @@ int main(){
 
         int attempts = MAX_ATTEMPTS;
 
-        for(attempts = 10; attempts >= 0; attempts--){ // Assigns 10 value to attempts, attempts must be over 0, and attempts's value will decrease by 1 each time. Keeps looping until condition is not met.
+        for(attempts = 5; attempts >= 0; attempts--){ // Assigns 10 value to attempts, attempts must be over 0, and attempts's value will decrease by 1 each time. Keeps looping until condition is not met.
 
             printf("Please guess a number: ");
             scanf("%d", &guess);
