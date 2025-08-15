@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-// #define DEBUG
+#define DEBUG
 #define MAX_ATTEMPTS 10
 
 int num = 0; // Global Variable
@@ -37,6 +37,11 @@ int main(){
             printf("Please guess a number: ");
             scanf("%d", &guess);
 
+            if(guess > 100){
+                printf("Invalid input! Please try again! \n");
+                printf("You have %d attempts left \n", attempts);
+            }
+
             if(guess >= 1 && guess < num){
                 printf("Guess too low! \n");
                 printf("You have %d attempts left: \n \n", attempts);
@@ -67,6 +72,8 @@ int main(){
 
             }else{
                 printf("Invalid input! please try again! \n");
+                attempts++;
+                printf("You have %d attempts left! \n", attempts);
                 continue;
             }
 
