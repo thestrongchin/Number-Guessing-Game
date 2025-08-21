@@ -1,17 +1,12 @@
 #ifndef GAME_H
 #define GAME_H
 
-void game(){
+#define DEBUG
+#define ATTEMPTS 5
 
-    void NumberGenerate();
+extern int num;
+extern int guess;
 
-    void debug();
-
-    void greeting();
-
-    void guessing();
-
-    void selection();
-}
+void game();
 
 #endif

@@ -1,17 +1,21 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-#include "game.h"
 
-// global variables
-int num = 0;
+#define DEBUG
+#define ATTEMPTS 5
+
+int num = 0; // Global Variable
 int guess;
 
-void game() {
+int main(){
+    
     int AttemptsLeft = ATTEMPTS;
+
     char selection = 'y';
 
-    while(selection == 'y' || selection == 'Y') {
+    while(selection == 'y' || selection == 'Y'){
+
         int UsedAttempts = 0;
 
         srand(time(0)); // This creates a seed for the number generator
@@ -34,7 +38,7 @@ void game() {
 
             if(scanf("%d", &guess) != 1){
                 printf("Invalid input! Please try again! \n");
-                printf("You have %d attempts left \n \n", AttemptsLeft);
+                printf("You have %d attempts left \n \n", ATTEMPTS);
 
                 while (getchar() != '\n');
                 continue;
@@ -42,12 +46,12 @@ void game() {
 
             if(guess > 100){
                 printf("Invalid input! Please try again! \n");
-                printf("You have %d attempts left \n", AttemptsLeft);
+                printf("You have %d attempts left \n", ATTEMPTS);
             }
 
             if(guess >= 1 && guess < num){
                 printf("Guess too low! \n");
-                printf("You have %d attempts left: \n \n", AttemptsLeft);
+                printf("You have %d attempts left: \n \n", ATTEMPTS);
 
                 UsedAttempts++; // Adds 1 to 'TotalAttempts' each time user guesses
                 continue;
@@ -55,7 +59,7 @@ void game() {
 
             if(guess >= 1 && guess > num){
                 printf("Guess too high! \n");
-                printf("You have %d attempts left: \n \n", AttemptsLeft);
+                printf("You have %d attempts left: \n \n", ATTEMPTS);
 
                 UsedAttempts++;
                 continue;
@@ -69,7 +73,7 @@ void game() {
                 break;
             }
 
-            if(AttemptsLeft == 0 || UsedAttempts == 5){
+            if(ATTEMPTS == 0 || UsedAttempts == 5){
                 printf("You have run out of attempts!\n");
                 printf("The correct number was: %d \n", num);
                 break;
@@ -77,7 +81,7 @@ void game() {
             }else{
                 printf("Invalid input! please try again! \n");
                 AttemptsLeft++;
-                printf("You have %d attempts left! \n", AttemptsLeft);
+                printf("You have %d attempts left! \n", ATTEMPTS);
                 continue;
             }
 
@@ -106,4 +110,6 @@ void game() {
         }
 
     } // end of while loop
+
+    return 0;
 }
