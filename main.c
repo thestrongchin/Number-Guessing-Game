@@ -3,7 +3,7 @@
 
 int main(){
 
-    void game();
-    
+    void debug();
+
     return 0;
 }
