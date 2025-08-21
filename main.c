@@ -3,7 +3,7 @@
 
 int main(){
 
-    void debug();
+    debug();
 
     return 0;
 }
