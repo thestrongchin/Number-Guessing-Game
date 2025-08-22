@@ -7,6 +7,6 @@
 extern int num;
 extern int guess;
 
-debug();
+void debug();
 
 #endif
