@@ -22,20 +22,20 @@ My simple number guessing game features several enhancements to ensure it functi
 - Number generation between 1 and 100
 - Error detection for numbers and characters for the restarting input
 
-  # 3: Using the Number Guessing Game
-  Playing/using the number guessing game is fun and simple! Here's an overview of how it works:
+# 3: Using the Number Guessing Game
+Playing/using the number guessing game is fun and simple! Here's an overview of how it works:
 
-  ## 3.1: Welcome message
-  When the game starts, it generates a number in the background, displays a welcome message, and then prompts the user to guess a number.
+## 3.1: Welcome message
+When the game starts, it generates a number in the background, displays a welcome message, and then prompts the user to guess a number.
   
-  <img width="414" height="104" alt="image" src="https://github.com/user-attachments/assets/b83da079-4c76-409a-8efd-1ff1164efec1" />
+<img width="414" height="104" alt="image" src="https://github.com/user-attachments/assets/b83da079-4c76-409a-8efd-1ff1164efec1" />
 
-  If DEBUG mode is on, the game will first display what number was generated before continuing as normal.
+If DEBUG mode is on, the game will first display what number was generated before continuing as normal.
 
-  <img width="429" height="138" alt="image" src="https://github.com/user-attachments/assets/0fc5f72d-5fe5-45ed-8058-30022b74adab" />
+<img width="429" height="138" alt="image" src="https://github.com/user-attachments/assets/0fc5f72d-5fe5-45ed-8058-30022b74adab" />
 
-  ## 3.2: Guessing the number
-  After the welcoming part, the user will have 5 attempts to guess the number that was generated. The code will provide feedback on whether or not their guess was too high or too low.
+## 3.2: Guessing the number
+After the welcoming part, the user will have 5 attempts to guess the number that was generated. The code will provide feedback on whether or not their guess was too high or too low.
 
 
 ### Too low:
