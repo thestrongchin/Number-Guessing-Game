@@ -34,6 +34,33 @@ My simple number guessing game features several enhancements to ensure it functi
 
   <img width="429" height="138" alt="image" src="https://github.com/user-attachments/assets/0fc5f72d-5fe5-45ed-8058-30022b74adab" />
 
+  ## 3.2: Guessing the number
+  After the welcoming part, the user will have 5 attempts to guess the number that was generated. The code will provide feedback on whether or not their guess was too high or too low.
+
+
+### Too low:
+  
+  <img width="234" height="66" alt="image" src="https://github.com/user-attachments/assets/ecb4f79d-d638-4d73-91c6-5673f9c89622" />
+
+### Too high:
+
+  <img width="245" height="68" alt="image" src="https://github.com/user-attachments/assets/82395277-5703-4e1e-aa72-ff4f992ba2d9" />
+
+  If there is an error, the game will let the user know and won't take away an attempt to ensure fair play.
+
+### Character error:
+
+  <img width="785" height="266" alt="image" src="https://github.com/user-attachments/assets/20ffb096-8599-4b9b-beea-f34a4038b348" />
+
+## 3.2: Finishing the game
+
+
+  
+
+
+  
+  
+
 
   
 
