@@ -137,10 +137,12 @@ Here is a simple flow chart that I made for my presentation about this project
 In this project, buffer clearing was required for character error detection, because in the case the user accidentally inputs a character, the buffer can be cleared so no issues arise. 
 
 ## 4.3: Multi-File system
+The multi-file system was used in this simple number-guessing game. The multi-file system made everything more organized and easier to debug. I had 3 files: game.c for creating functions, game.h for declaring functions and variables, and main.c to call all the functions and bring everything together. 
 
 
 ## 4.4: Functions
 Functions were needed in this project, as I used the multi-file system. I declared the functions in the game.c file so they could function. I wrote what the functions did in game.c, and then called them in game.h. Almost everything in the game was in a function, except for the game restart. 
+
 
 
 
