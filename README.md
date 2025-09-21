@@ -27,12 +27,23 @@ Playing/using the number guessing game is fun and simple! Here's an overview of 
 
 ## 3.1: Welcome message
 When the game starts, it generates a number in the background, displays a welcome message, and then prompts the user to guess a number.
-  
-<img width="414" height="104" alt="image" src="https://github.com/user-attachments/assets/b83da079-4c76-409a-8efd-1ff1164efec1" />
+
+```text
+=============================================== 
+      Welcome to the number guessing game! 
+===============================================
+You have 5 attempts, use them wisely!
+```
 
 If DEBUG mode is on, the game will first display what number was generated before continuing as normal.
 
-<img width="429" height="138" alt="image" src="https://github.com/user-attachments/assets/0fc5f72d-5fe5-45ed-8058-30022b74adab" />
+```text
+[DEBUG] The generated number is 50!
+=============================================== 
+      Welcome to the number guessing game! 
+===============================================
+You have 5 attempts, use them wisely!
+```
 
 ## 3.2: Guessing the number
 After the welcoming part, the user will have 5 attempts to guess the number that was generated. The code will provide feedback on whether or not their guess was too high or too low.
@@ -40,17 +51,29 @@ After the welcoming part, the user will have 5 attempts to guess the number that
 
 ### Too low:
   
-  <img width="234" height="66" alt="image" src="https://github.com/user-attachments/assets/ecb4f79d-d638-4d73-91c6-5673f9c89622" />
+```text
+Please guess a number: 5
+Guess too high! Please try again!
+```
 
 ### Too high:
 
-  <img width="245" height="68" alt="image" src="https://github.com/user-attachments/assets/82395277-5703-4e1e-aa72-ff4f992ba2d9" />
+  ```text
+Please guess a number: 100
+Guess too high! Please try again!
+```
 
   If there is an error, the game will let the user know and won't take away an attempt to ensure fair play.
 
 ### Character error:
+This is how the character error will act
 
-  <img width="785" height="266" alt="image" src="https://github.com/user-attachments/assets/20ffb096-8599-4b9b-beea-f34a4038b348" />
+  ``` text
+Please guess a number: c
+Invalid Input! Please try again!
+
+You have 5 attempts left
+```
 
 ## 3.2: Finishing the game
 
