@@ -1,15 +1,15 @@
 # Number-Guessing-Game
 
 # 1: Description
-This is a simple number-guessing game, where the user will have to guess a number between 1 and 100. The game can reset when the user guesses the correct number or runs out of attempts. 
+A simple C project where the user tries to guess a randomly generated number between 1 and 100 in only 5 attempts! Includes robust error handling, restart options, and even a DEBUG mode for testing. 
 
 # 1.1: What I learned
 Throughout this project, I learned many things, including: 
 
 - How to use functions
-- Global variables
-- How to use the multi-file system to work more efficiently
-- How to understand buffer clearing more deeply
+- How to use Global variables
+- How to use the multi-file system 
+- How buffer clearing works
 - How to make the DEBUG function using the #define function
 - How to properly call functions
 
@@ -133,14 +133,11 @@ Here is a simple flow chart that I made for my presentation about this project
 
 <img width="1129" height="773" alt="image" src="https://github.com/user-attachments/assets/d2bb52b8-5b97-4661-b397-99a6d456e927" />
 
-
-
 ## 4.2: Buffer Clearing
 In this project, buffer clearing was required for character error detection, because in the case the user accidentally inputs a character, the buffer can be cleared so no issues arise. 
 
 ## 4.3: Multi-File system
 The multi-file system was used in this simple number-guessing game. The multi-file system made everything more organized and easier to debug. I had 3 files: game.c for creating functions, game.h for declaring functions and variables, and main.c to call all the functions and bring everything together. 
-
 
 ## 4.4: Functions
 Functions were needed in this project, as I used the multi-file system. I declared the functions in the game.c file so they could function. I wrote what the functions did in game.c, and then called them in game.h. Almost everything in the game was in a function, except for the game restart. 
