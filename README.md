@@ -131,7 +131,8 @@ Part 4 will explain the implementation I used in this code to help it work, alon
 ## 4.1: Flow Chart
 Here is a simple flow chart that I made for my presentation about this project
 
-<img width="1104" height="756" alt="image" src="https://github.com/user-attachments/assets/4bfc886f-df97-44f6-86d9-29be3a22f3c0" />
+<img width="1129" height="773" alt="image" src="https://github.com/user-attachments/assets/d2bb52b8-5b97-4661-b397-99a6d456e927" />
+
 
 
 ## 4.2: Buffer Clearing
