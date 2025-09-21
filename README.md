@@ -134,9 +134,13 @@ Here is a simple flow chart that I made for my presentation about this project
 <img width="1078" height="772" alt="image" src="https://github.com/user-attachments/assets/24cf505e-2ece-43fe-b355-265740782446" />
 
 ## 4.2: Buffer Clearing
-In this project, buffer clearing was required for character error detection, because in the case the user does accidentally input a character, the buffer can be cleared so no issues arise. 
+In this project, buffer clearing was required for character error detection, because in the case the user accidentally inputs a character, the buffer can be cleared so no issues arise. 
 
-##
+## 4.3: Functions
+Functions were needed in this project, as I used the multi-file system. I declared the functions in the game.c file so they could function. I wrote what the functions did in game.c, and then called them in game.h. Almost everything in the game was in a function, except for the game restart. 
+
+## 4.4: 
+
 
 
 
