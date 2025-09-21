@@ -133,6 +133,11 @@ Here is a simple flow chart that I made for my presentation about this project
 
 <img width="1078" height="772" alt="image" src="https://github.com/user-attachments/assets/24cf505e-2ece-43fe-b355-265740782446" />
 
+## 4.2: Buffer Clearing
+In this project, buffer clearing was required for character error detection, because in the case the user does accidentally input a character, the buffer can be cleared so no issues arise. 
+
+##
+
 
 
 
