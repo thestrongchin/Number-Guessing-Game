@@ -112,7 +112,7 @@ Please enter a selection, Yes = 'y'/'Y', No = 'n'/'N'
 
 Please make your selection now: n
 
-Thank you for playing the number guessing game! Please come again soon!
+Thank you for playing the number-guessing game! Please come again soon!
 ```
 
 ### Input Error
@@ -131,7 +131,8 @@ Part 4 will explain the implementation I used in this code to help it work, alon
 ## 4.1: Flow Chart
 Here is a simple flow chart that I made for my presentation about this project
 
-<img width="1078" height="772" alt="image" src="https://github.com/user-attachments/assets/24cf505e-2ece-43fe-b355-265740782446" />
+<img width="1104" height="756" alt="image" src="https://github.com/user-attachments/assets/4bfc886f-df97-44f6-86d9-29be3a22f3c0" />
+
 
 ## 4.2: Buffer Clearing
 In this project, buffer clearing was required for character error detection, because in the case the user accidentally inputs a character, the buffer can be cleared so no issues arise. 
@@ -142,6 +143,9 @@ The multi-file system was used in this simple number-guessing game. The multi-fi
 
 ## 4.4: Functions
 Functions were needed in this project, as I used the multi-file system. I declared the functions in the game.c file so they could function. I wrote what the functions did in game.c, and then called them in game.h. Almost everything in the game was in a function, except for the game restart. 
+
+# 5: The End
+This is the end of my README about the simple number guessing game. Thank you for reading about my game 
 
 
 
