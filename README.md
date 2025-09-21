@@ -105,6 +105,34 @@ Please make your selection now: y
       Welcome to the number guessing game! 
 ===============================================
 ```
+### User wants to end
+```text
+Would you like to play again?
+Please enter a selection, Yes = 'y'/'Y', No = 'n'/'N'
+
+Please make your selection now: n
+
+Thank you for playing the number guessing game! Please come again soon!
+```
+
+### Input Error
+```text
+Would you like to play again?
+Please enter a selection, Yes = 'y'/'Y', No = 'n'/'N'
+
+Please make your selection now: c
+
+Invalid input! Game terminating...
+```
+
+# 4. Implementation
+Part 4 will explain the implementation I used in this code to help it work, along with the logic. 
+
+## 4.1: Flow Chart
+Here is a simple flow chart that I made for my presentation about this project
+
+<img width="1078" height="772" alt="image" src="https://github.com/user-attachments/assets/24cf505e-2ece-43fe-b355-265740782446" />
+
 
 
 
