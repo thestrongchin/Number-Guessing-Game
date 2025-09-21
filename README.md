@@ -145,7 +145,11 @@ The multi-file system was used in this simple number-guessing game. The multi-fi
 Functions were needed in this project, as I used the multi-file system. I declared the functions in the game.c file so they could function. I wrote what the functions did in game.c, and then called them in game.h. Almost everything in the game was in a function, except for the game restart. 
 
 # 5: The End
-This is the end of my README about the simple number guessing game. Thank you for reading about my game 
+This is the end of my README about the simple number guessing game. Thank you for reading about my game!
+
+# 5.1: Contact
+If you really enjoyed this README, or have comments, suggestions, or improvements that I can make, please feel free to reach out to me via email: riverchen0510@gmail.com
+***No spam please!***
 
 
 
