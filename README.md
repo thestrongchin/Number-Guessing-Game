@@ -38,6 +38,8 @@ You have 5 attempts, use them wisely!
 If DEBUG mode is on, the game will first display what number was generated before continuing as normal.
 
 ```text
+[DEBUG] DEBUG mode has been activated!
+
 [DEBUG] The generated number is 50!
 =============================================== 
       Welcome to the number guessing game! 
@@ -76,6 +78,36 @@ You have 5 attempts left
 ```
 
 ## 3.2: Finishing the game
+
+### User runs out of attempts:
+```text
+You have 0 attempts left!
+Would you like to play again?
+```
+
+### User guesses the correct number:
+```text
+Congratulations! You have guessed the correct number in 'x' attempts!
+Would you like to play again?
+```
+# 3.3: Restarting Game
+Choosing whether or not you want to restart is very straightforward and only requires 1 letter!
+
+### User wants to restart
+
+```text
+Would you like to play again?
+Please enter a selection, Yes = 'y'/'Y', No = 'n'/'N'
+
+Please make your selection now: y
+
+=============================================== 
+      Welcome to the number guessing game! 
+===============================================
+```
+
+
+
 
 
   
