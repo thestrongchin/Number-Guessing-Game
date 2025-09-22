@@ -38,7 +38,7 @@ Throughout this project, I learned many things, including:
 
 # 2: Features
 My simple number guessing game features several enhancements to ensure it functions properly and provides an improved user experience. Some of the features are: 
-- Robust error detection that can detect characters and integers over 100 or under 1
+- Robust error detection catches character errors and too high/too low numbers over 100 and under 1
 - Too high/low feedback on user input, to make it easier to guess the correct number with only 5 attempts
 - Game restarting, with a new number generated after attempts run out/user guesses correct numbers
 - DEBUG mode for easy testing
