@@ -1,5 +1,28 @@
 # Number-Guessing-Game
 
+## Table of Contents
+- ### [1. Description](#1-description)
+  - [1.1: What I Learned](#11-what-i-learned) 
+    
+- ### [2. Features](#2-features)
+
+- ### **[3. Using The Number Guessing Game](#3-using-the-number-guessing-game)**
+  - [3.1: Welcome Message](#31-welcome-message)
+  - [3.2: Guessing The Number](#32-guessing-the-number)
+  - [3.3: Finishing The Game](#33-finishing-the-game)
+  - [3.4: Restarting Game](#34-restarting-game)
+ 
+- ### **[4: Implementations](#4-implementations)**
+  - [4.1: Flow Chart](#41-flow-chart)
+  - [4.2: Buffer Clearing](#42-buffer-clearing)
+  - [4.3: Multi-File System](#43-multi-file-system)
+  - [4.4: Functions](#44-functions)
+
+- ### **[5: The End](#5-the-end)**
+  - [5.1: Contact](#51-contact)
+  
+    
+
 # 1: Description
 A simple C project where the user tries to guess a randomly generated number between 1 and 100 in only 5 attempts! Includes robust error handling, restart options, and even a DEBUG mode for testing. 
 
@@ -77,7 +100,7 @@ Invalid Input! Please try again!
 You have 5 attempts left
 ```
 
-## 3.2: Finishing the game
+## 3.3: Finishing the game
 
 ### User runs out of attempts:
 ```text
@@ -90,7 +113,7 @@ Would you like to play again?
 Congratulations! You have guessed the correct number in 'x' attempts!
 Would you like to play again?
 ```
-# 3.3: Restarting Game
+# 3.4: Restarting Game
 Choosing whether or not you want to restart is very straightforward and only requires 1 letter!
 
 ### User wants to restart
@@ -131,7 +154,7 @@ Part 4 will explain the implementation I used in this code to help it work, alon
 ## 4.1: Flow Chart
 Here is a simple flow chart that I made for my presentation about this project
 
-<img width="1129" height="773" alt="image" src="https://github.com/user-attachments/assets/d2bb52b8-5b97-4661-b397-99a6d456e927" />
+<img width="1075" height="770" alt="image" src="https://github.com/user-attachments/assets/cfa6d84c-8018-4aae-bd94-1811564b8d2c" />
 
 ## 4.2: Buffer Clearing
 In this project, buffer clearing was required for character error detection, because in the case the user accidentally inputs a character, the buffer can be cleared so no issues arise. 
