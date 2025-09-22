@@ -40,7 +40,7 @@ Throughout this project, I learned many things, including:
 My simple number guessing game features several enhancements to ensure it functions properly and provides an improved user experience. Some of the features are: 
 - Robust error detection catches character errors and too high/too low numbers over 100 and under 1
 - Too high/low feedback on user input, to make it easier to guess the correct number with only 5 attempts
-- Game restarting, with a new number generated after attempts run out/user guesses correct numbers
+- The game can restart/cancel after finishing the game
 - DEBUG mode for easy testing
 - Number generation between 1 and 100
 - Error detection for numbers and characters for the restarting input
@@ -154,7 +154,7 @@ Part 4 will explain the implementation I used in this code to help it work, alon
 ## 4.1: Flow Chart
 Here is a simple flow chart that I made for my presentation about this project
 
-<img width="1075" height="770" alt="image" src="https://github.com/user-attachments/assets/cfa6d84c-8018-4aae-bd94-1811564b8d2c" />
+<img width="1359" height="765" alt="image" src="https://github.com/user-attachments/assets/367c8ff9-3392-473f-afb7-5c54375c992a" />
 
 ## 4.2: Buffer Clearing
 In this project, buffer clearing was required for character error detection, because in the case the user accidentally inputs a character, the buffer can be cleared so no issues arise. 
