@@ -154,7 +154,8 @@ Part 4 will explain the implementation I used in this code to help it work, alon
 ## 4.1: Flow Chart
 Here is a simple flow chart that I made for my presentation about this project
 
-<img width="1114" height="697" alt="image" src="https://github.com/user-attachments/assets/5d67faf8-cf7d-443d-af27-349d66acc87e" />
+<img width="740" height="788" alt="image" src="https://github.com/user-attachments/assets/496adf31-50fb-4895-a289-c778db5996a2" />
+
 
 ## 4.2: Buffer Clearing
 In this project, buffer clearing was required for character error detection, because in the case the user accidentally inputs a character, the buffer can be cleared so no issues arise. 
