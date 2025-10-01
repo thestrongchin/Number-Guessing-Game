@@ -7,9 +7,6 @@ int main(){
 
     while(selection == 'Y' || selection == 'y'){
 
-        int usedAttempts = 0;
-        int attemptsLeft = 5;
-
         numGenerate();
 
         debug();
