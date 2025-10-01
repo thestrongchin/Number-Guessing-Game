@@ -154,7 +154,7 @@ Part 4 will explain the implementation I used in this code to help it work, alon
 ## 4.1: Flow Chart
 Here is a simple flow chart that I made for my presentation about this project
 
-<img width="740" height="788" alt="image" src="https://github.com/user-attachments/assets/496adf31-50fb-4895-a289-c778db5996a2" />
+<img width="627" height="701" alt="image" src="https://github.com/user-attachments/assets/248ed90b-932e-482a-87b0-390b1d2eb741" />
 
 
 ## 4.2: Buffer Clearing
